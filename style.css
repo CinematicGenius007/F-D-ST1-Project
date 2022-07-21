@@ -1,0 +1,36 @@
+html, body {
+    font-family: 'Ubuntu', sans-serif, monospace !important;
+}
+
+#div2 {
+    background: linear-gradient(135deg, rgba(23,124,45, 85%), rgba(232,12,32,56%));
+}
+
+.animation-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.main-heading {
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #84cc16;
+}
