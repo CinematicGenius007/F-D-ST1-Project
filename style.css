@@ -10,6 +10,34 @@ html, body {
     animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+.hover-color-anchor {
+  transition: color 0.3s, transform 0.6s;
+  transition-timing-function: ease-in-out;
+  /* transition-duration: 0.7s; */
+}
+
+.hover-color-anchor:nth-child(1):hover {
+  color: #a3e635;
+  transform: scale(1.1);
+}
+
+.hover-color-anchor:nth-child(2):hover {
+  color: #facc15;
+  transform: scale(1.1);
+}
+
+.hover-color-anchor:nth-child(3):hover {
+  color: #afafaf;
+  transform: scale(1.1);
+}
+
+.hover-color-anchor:nth-child(4):hover {
+  color: #22d3ee;
+  transform: scale(1.1);
+}
+
+/* #facc15, #34d399, #22d3ee,  */
+
 @keyframes pulse {
   0%, 100% {
     opacity: 1;
